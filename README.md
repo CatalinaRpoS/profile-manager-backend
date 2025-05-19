@@ -21,10 +21,10 @@ This project was dockerized so you can use it easily. You need to install the fo
 
 First, you need to make a copy of the repository on your local machine using the following commands in a console like `cmd` or `bash`.
 
-    ```bash
-    git clone https://github.com/CatalinaRpoS/profile-manager-backend
-    cd profile-manager-backend
-    ```
+```bash
+git clone https://github.com/CatalinaRpoS/profile-manager-backend
+cd profile-manager-backend
+```
 
 2. **Without Docker Compose:**
 
@@ -34,18 +34,18 @@ If you haven't installed Docker Compose, you must perform the following steps:
 
 - Open a console and run the following commands:
 
-    ```bash
-    docker build -t profile-manager-backend .
-    docker run -d -p 8000:8000 --name backend profile-manager-backend
-    ```
+```bash
+docker build -t profile-manager-backend .
+docker run --name backend-container -p 8000:8000 -v $(pwd)/data:/app/data profile-manager-backend
+```
 
 3. **With Docker Compose:**
 
 If you have already installed Docker Compose in your computer, you just need to run the following command in the console of the project.
 
-    ```bash
-    docker-compose up --build
-    ```
+```bash
+docker-compose up --build
+```
 
 4. **¨Running the project**
 
