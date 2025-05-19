@@ -15,7 +15,9 @@ Here, you'll fin the API for a web application designed and developed to find an
 This project was dockerized so you can use it easily. You need to install the following tools:
 
 - Docker.
-- Docker compose (optional).
+- Docker Compose (optional).
+
+**Note:** I highly recommend you install Docker Compose, the whole proccess of setup and running the project will be faster!
 
 ## Instructions
 
