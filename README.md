@@ -19,7 +19,11 @@ This project was dockerized so you can use it easily. You need to install the fo
 
 ## Instructions
 
-1. **Make a clon of the repository**
+1. **Running Docker Engine**
+
+Once you have installed Docker on your computer, you must run the engine in order to succesfully complete the other steps. Only click on the Docker Desktop Icon you'll fin in the Desktop after the instalation and everything will be ready!
+
+2. **Make a clon of the repository**
 
 First, you need to make a copy of the repository on your local machine using the following commands in a console like `cmd` or `bash`.
 
@@ -28,7 +32,7 @@ git clone https://github.com/CatalinaRpoS/profile-manager-backend
 cd profile-manager-backend
 ```
 
-2. **Without Docker Compose:**
+3. **Without Docker Compose:**
 
 If you haven't installed Docker Compose, you must perform the following steps:
 
@@ -41,7 +45,7 @@ docker build -t profile-manager-backend .
 docker run --name backend-container -p 8000:8000 -v $(pwd)/data:/app/data profile-manager-backend
 ```
 
-3. **With Docker Compose:**
+4. **With Docker Compose:**
 
 If you have already installed Docker Compose in your computer, you just need to run the following command in the console of the project.
 
@@ -49,7 +53,7 @@ If you have already installed Docker Compose in your computer, you just need to 
 docker-compose up --build
 ```
 
-4. **Running the project**
+5. **Running the project**
 
 When you have executed the commands you needed, you'll can access to the API in the direction `http://localhost:8000`. The first message you will se is: "Welcome to Profile Manager API!"
 
