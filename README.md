@@ -2,6 +2,8 @@
 
 **Author:** Catalina Restrepo Salgado
 
+**Tool used:** FastAPI
+
 ## Summary
 
 This repository corresponds to my solution on the technical assesment presented for applying to the Systems Engineerign Intern Position at Factored
@@ -47,13 +49,13 @@ If you have already installed Docker Compose in your computer, you just need to 
 docker-compose up --build
 ```
 
-4. **¨Running the project**
+4. **Running the project**
 
 When you have executed the commands you needed, you'll can access to the API in the direction `http://localhost:8000`. The first message you will se is: "Welcome to Profile Manager API!"
 
 Additionally, if you want to read de **documentation** of the project, in order to know everything what it contains, you can check the `http://localhost:8000/docs` route in your web browser.
 
-## Final message
+## Final considerations
 
 I hope you will find this project interesting and useful, let me know anything you need to know (or if you have a suggestion that helps me to improve).
 
